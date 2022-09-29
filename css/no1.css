@@ -1,0 +1,238 @@
+*{
+margin:0px;
+padding:0px;
+border:0px;
+box-sizing: border-box;
+}
+header{
+background-color: rgb(69, 12, 122);
+width: 100%;
+float: left;
+}
+img{
+height:100px;
+width: 110px;
+border-radius:2px;
+background-color:transparent; 
+}
+.container{
+width:80%;
+margin:auto;
+}
+.navigation-part{
+   width:100%;
+   float: left;
+}
+.hero-part{
+width:100%;
+float: left;   
+}
+.logo-part{
+width: 50%;
+float: left;
+}
+.section-part{
+width: 50%;
+float: left;
+}
+button{
+text-align: center;
+font-size: 15px;
+color: red;
+margin: 40px;
+}
+button:hover{
+background-color: rgb(54, 56, 56);
+}
+ul{
+color: white;
+}
+.hero-part{
+ text-align: center;
+ color:white;
+ margin: 20px;  
+}
+.sec{
+background-color: rgb(37, 136, 139);
+width: 100%;
+float: left;
+color: rgb(124, 14, 14);
+}
+.writting-part{
+text-align: center;
+margin: 15px;
+}
+.first{
+font-size: 29px;
+color: rgb(83, 14, 14);
+}
+.box-part{
+width: 100%;
+float: left;
+}
+.icon{
+width: 25%;
+float: left;
+}
+h4:hover{
+color: white;
+}
+.haga{
+   margin: 0px 0px 15px 0px;
+}
+.logo-part{
+margin: 10px 0px;
+}
+.section-part{
+margin: 5px 0px;
+text-align: end;
+}
+li{
+display: inline-block;
+margin: 7px;
+padding: 8px;
+font-size: 14px;
+color: red;
+text-align: end;
+font-weight: 500;
+}
+li:hover{
+background-color: rgba(0, 0, 0, 0.356);
+}
+h1{
+   margin: 50px;
+}
+.team{
+  width: 100%;
+  float: left;
+  background-color: rgba(255, 228, 196, 0.582);
+  text-align: center;
+}
+.team-box-part{
+   width: 100%;
+   float: left;
+}
+.team-box{
+width: 20%;
+float: left;
+}
+.line:hover{
+   color: blue;
+}
+.line{
+   margin: 14px 0px;
+   color: red;
+}
+.visit-part:hover{
+   color: blue;
+}
+.social-icon i{
+color: white;
+background-color: rgba(95, 158, 160, 0.404);
+padding:10px;
+border-radius: 40px;
+width: 40px;
+transition: ease-in-out 0.5s;
+}
+.social-icon i:hover{
+   color: cornflowerblue;
+   background-color: aqua;
+}
+.derivation{
+   margin-bottom:22px ;
+}
+.liner{
+font-size: medium;
+}
+.team-box img{
+width: 150px;
+height:150px;
+border-radius:50%;
+}
+.meet-line{
+  font-size: 20px;
+  margin-bottom:20px; 
+}
+.last-container{
+   width: 60%;
+   margin: auto;
+}
+.form-part{
+   width: 100%;
+   float: left;
+   background-color: rgba(0, 139, 139, 0.349);
+   text-align: center;
+}
+.name-row{
+   width: 100%;
+   float: left;
+}
+.self{
+width: 50%;
+float: left;
+}
+.email-part{
+   width: 50%;
+   float: left;
+}
+h3{
+   margin-bottom: 16px;
+}
+.self input,.email-part input{
+   background-color: cadetblue;
+   border: 1px solid rgba(0, 0, 0, 0.425);
+   border-radius: 4px;
+   color: white;
+   padding: 4px;
+   margin:2px 0px;
+   width: 260px;
+}
+input::placeholder{
+   color: white;
+}
+.message-part{
+   width: 100%;
+   float: left;
+}
+.opinion{
+   background-color:rgba(20, 92, 94, 0.5);
+   color: white;
+   border: 2px solid rgba(0, 0, 0, 0.425);
+   border-radius: 4px;
+   margin: 10px 0px auto;
+   padding: 10px;
+   width: 50%;
+}
+.opinion::placeholder{
+   color: white;
+}
+.submission{
+   background-color:rgba(20, 92, 94, 0.5);
+   color: white;
+   width: 50px;
+   border-radius: 4px;
+   border: 1px solid rgba(0, 0, 0, 0.425);
+   margin: 7px 0px auto;
+}
+footer{
+   width: 100%;
+   float: left;
+   background-color: rgba(189, 183, 107, 0.24);
+}
+.footer-icon{
+margin:10px 0px auto;
+padding: 10px;
+width: 100%;
+float: left;
+text-align: center;
+}
+.footer-icon i{
+   padding: 6px 6px;
+   background-color:rgba(0, 0, 0, 0.411);
+   border-radius: 14px;
+   color: white;
+   margin: 0px 6px;
+}
+.footer-icon i:hover{
+   background-color: rgba(165, 42, 42, 0.637);
+}
